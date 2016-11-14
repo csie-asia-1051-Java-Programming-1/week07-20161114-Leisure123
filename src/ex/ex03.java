@@ -11,14 +11,20 @@ public class ex03 {
 		Scanner scn = new Scanner(System.in);
 		int a = scn.nextInt();
 		int b = scn.nextInt();
-		int data[][] = new int [a][b];
-		for(int i = 0 ; i <a;i++){
-			for(int j = 0;j < b;j++){
+		float data[][] = new float [a][b];
+		for(int i = 0 ; i < a ; i++){
+			for(int j = 0 ; j < b ; j++){
 				data[i][j] = scn.nextInt();
 			}
 		}
-		System.out.print(data[a][b]);
-
+		
+	}
+	public static float std2(float data ,int n){
+		
+		return ;
+	}
+	public static float var2(){
+		
 	}
 
 }
