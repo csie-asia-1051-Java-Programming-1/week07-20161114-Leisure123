@@ -14,13 +14,13 @@ public class ex02 {
 		for(int i = 0 ; i < n ; i++){
 			data[i]=scn.nextInt();
 		}
-		System.out.print(Math.sqrt(std(data,n)));
+		System.out.print("�зǮt:" + Math.sqrt(std(data,n)));
 	}
 	public static float std(float data[],int n){
 		float b = var(data,n);
 		for(int i = 0 ; i < n ; i++){
 			data[i] =(float) (data[i]-b);
-			data[i] = (float)Math.pow(data[i], 2);
+			data[i] =(float)Math.pow(data[i], 2);
 		}
 		float a = var(data,n);
 		return a;

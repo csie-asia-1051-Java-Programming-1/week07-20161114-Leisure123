@@ -22,7 +22,7 @@ public class ex01 {
 			data[i]=data[i]*data[i];
 //			System.out.print(data[i] +"\t");
 		}
-		System.out.println(var(data,n));
+		System.out.println("ÅÜ²§¼Æ:" + var(data,n));
 	}
 	public static float var(float data[],float n){
 		float sum = 0;
