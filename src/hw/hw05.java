@@ -23,8 +23,7 @@ public class hw05 {
 			return "";
 		}else{
 			a = n % 10;
-			System.out.print(a);
-			return fun(n/10);
+			return a+""+fun(n/10);
 		}
 		
 	}
