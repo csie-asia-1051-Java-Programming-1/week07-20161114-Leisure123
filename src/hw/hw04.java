@@ -13,14 +13,14 @@ public class hw04 {
 		System.out.print("叫块ㄢタ俱计:");
 		int m = scn.nextInt();
 		int n = scn.nextInt();
-		System.out.println("程そ计:"+gcd(m , n));
+		System.out.println("程そ计:"+gcd(m , n , m));
 
 	}
-	public static int gcd(int m , int n){
-		if(n == 0){
-			return m;
+	public static int gcd(int m , int n , int sum){
+		if(n % sum == 0 && m % sum == 0){
+			return sum;
 		}else{
-			return gcd(n , m % n);
+			return gcd(m , n , sum - 1);
 		}
 	}
 
